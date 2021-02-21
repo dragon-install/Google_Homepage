@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+footer a:visited {
+  color: #70757a;
+}
+
+.navbar-container {
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  font-size: .9em;
+}
+
+/* Invisible li to space out header, flex-grow: 1 so this takes up more space than the other li and "pushes" them outwards*/
+.space-out {
+  visibility: none;
+  flex-grow: 1;
+}
+
+.about {
+  margin-right: 20px;
+}
+
+.gmail {
+  margin-right: 20px;
+}
+
+.navbar-container a:visited {
+  color: #000;
+}
+
+.logo {
+  display: flex;  
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.input-field-container {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  flex: 0 1 600px;
+  height: 50px;
+  border: 1px solid #f4f4f4;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  color: #3c4043;
+  padding: 15px;
+  margin-right: 15px;
+  height: 30px;
+  padding-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #202124;
+  border: 1px solid #dadce0;
+  background-color: #f8f9fa;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+p {
+  text-align: center;
+  font-size: .9em;
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #70757a;
+}
+
+.pic-in-footer {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1.3em;
+}
+
+footer {
+  position: fixed;
+  height: 14vh;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  font-size: .9em;
+  color: #70757a;
+  background-color:#f8f9fa;
+  text-decoration: none;
+}
+
